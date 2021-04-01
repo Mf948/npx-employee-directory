@@ -3,7 +3,6 @@ import './App.css';
 import React, { useState, useEffect } from "react";
 import API from "./utils/API";
 
-
 function App() {
 
   const [directories, setDirectories] = useState([]);
