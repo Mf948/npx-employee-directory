@@ -2,14 +2,14 @@
 
 
 
-
+![EmployeeDirectory](EmployeeDirectories.png)
 ## Description
 
  a employee directory with React. Employee Director that you will be able to find a person with a searchbar also you will be able to show more or less users. 
 
-App: https://mf948.github.io/Password-generator-app/
+ App: https://mf948.github.io/npx-employee-directory/
 
- Github: https://github.com/Mf948/Password-generator-app
+ Github: https://github.com/Mf948/npx-employee-directory
 
 ## Table of contents
 
