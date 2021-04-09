@@ -4,34 +4,31 @@ import React from "react";
 function Table(props){
     return(
         <div>
-            <table class="table">
+            <table className="table table-dark">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+    <th scope="col">Image</th>
+      <th scope="col">Firstname</th>
+      <th scope="col">Lastname</th>
+      <th scope="col">Age</th>
+      <th scope="col">email</th>
+      <th scope="col">phoneNumber</th>
+      <th scope="col">Location</th>
+
+      
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+    <th><img src = {props.image}></img></th> 
+    <td>{props.firstName}</td>
+    <td>{props.lastName}</td>
+    <td>{props.age}</td>
+    <td>{props.email}</td>
+    <td>{props.cell}</td>
+    <td>{props.location}</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
+
   </tbody>
 </table>
         </div>
